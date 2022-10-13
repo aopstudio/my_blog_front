@@ -12,4 +12,11 @@ export default defineConfig({
     babelPlugins: [],
     babelOptions: {},
   },
+  proxy: {
+    "/article": { // 标识需要进行转换的请求的url
+      "target": "http://localhost:7001", // 服务端域名
+      "changeOrigin": true, // 允许域名进行转换
+      // "pathRewrite": { "^/article": ''}  // 将请求url里的ci去掉
+    }
+  }
 });
