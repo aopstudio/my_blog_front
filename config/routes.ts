@@ -14,6 +14,12 @@
     ],
   },
   {
+    path: '/article_list',
+    name: 'article.list',
+    icon: 'smile',
+    component: './ArticleList',
+  },
+  {
     path: '/welcome',
     name: 'welcome',
     icon: 'smile',

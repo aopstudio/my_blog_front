@@ -3,7 +3,7 @@ import { Card, Input, Button, message, Form } from 'antd';
 import { post } from 'axios';
 import React from 'react';
 const {TextArea} = Input;
-import styles from './List.less';
+import styles from './Welcome.less';
 
 /**
  * create article
